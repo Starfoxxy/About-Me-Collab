@@ -6,6 +6,7 @@
     font-weight: 700;
     font-style: normal;
     box-sizing: border-box;
+    color: white;
 }
 
 body{
@@ -13,41 +14,92 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
 }
 
 header{
     display: flex;
-    justify-content: center;
-    margin-bottom: 700px;
+    justify-content: space-between;
+    padding-bottom: 30px;
     /* font-family: ; */
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     font-style: italic;
-    color: #fff;
     text-shadow: 
-    0px 0px 10px #fff,
-    0px 0px 20px #fff,
-    0px 0px 40px #fff,
-    0px 0px 80px #fff,
-    0px 0px 120px #fff,
-    0px 0px 160px #fff;
+    0px 0px 10px #FBF485,
+    0px 0px 20px #FBF485,
+    0px 0px 40px #FBF485,
+    0px 0px 80px #FBF485,
+    0px 0px 120px #FBF485,
+    0px 0px 160px #FBF485,
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black,
+    4px 4px 2px rgba(150, 150, 150, 1);
+    
+}
+
+
+
+header img{
+    width: 200px;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 22px 8px;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    height: 100vh;
-    text-align: center;
-    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    margin-top: 200px;
     /* box-shadow: */
 }
 
-.container h2{
-    margin-bottom: 20px;
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 250px;
+}
+
+.left-image, .right-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 22px 8px;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+p{
+    display: block;
+    width: 50%;
+    margin-bottom: 16px;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.4);
+    padding: 20px 10px 20px;
+    border-radius: 30px;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 35px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
     text-shadow: 
     0px 0px 10px #fff,
     0px 0px 20px #fff,
@@ -57,30 +109,15 @@ header{
     0px 0px 160px #fff;
 }
 
-.about-me {
-    margin-top: 500px;
+footer{
+    text-align: center;
+    padding: 20px;
 }
 
-
-p{
-    display: block;
-    width: 33%;
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(250, 250, 250, 0.3);
-    padding:10px;
-    border-radius: 30px; 
-}
-
-img{
-    width: 150px;
+footer img{
+    display:inline-block;
+    max-width: 375px;
     height: auto;
-    border-radius: 20px;
-    box-shadow: 0 0 22px 8px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    outline: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+    margin-top: -200px;
 }
